@@ -33,10 +33,8 @@ Normally, character classes can contain almost all characters literally. However
 
 ### Valid cases
 
-<!-- Note: the {} need to be double-escaped, once for Yari -->
-
 ```js example-good
-/[\(\)\\{\\}]/v;
+/[\(\)\{\}]/v;
 ```
 
 ## See also
